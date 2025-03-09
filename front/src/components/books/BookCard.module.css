@@ -1,0 +1,79 @@
+.card {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.imageContainer {
+    position: relative;
+    height: 12rem;
+    width: 100%;
+    background-color: #e5e7eb;
+}
+
+.fallbackContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #f3f4f6;
+}
+
+.fallbackContent {
+    text-align: center;
+    padding: 1rem;
+}
+
+.fallbackTitle {
+    font-weight: 600;
+    color: #1f2937;
+}
+
+.fallbackAuthor {
+    font-size: 0.875rem;
+    color: #4b5563;
+}
+
+.content {
+    padding: 1rem;
+}
+
+.title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.author {
+    color: #4b5563;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.genre,
+.year {
+    font-size: 0.875rem;
+    color: #6b7280;
+}
+
+.detailsLink {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #2563eb;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.detailsLink:hover {
+    color: #1d4ed8;
+}

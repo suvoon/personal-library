@@ -1,0 +1,41 @@
+.navbar {
+    background-color: #2563eb;
+    color: white;
+    padding: 1rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.navLinks {
+    display: flex;
+    gap: 1rem;
+}
+
+.navLink {
+    color: white;
+    text-decoration: none;
+    background: transparent;
+    border: 0;
+    font-size: 1rem;
+}
+
+.navLink:hover {
+    color: #bfdbfe;
+}
+
+.welcomeText {
+    color: #bfdbfe;
+}
