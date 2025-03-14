@@ -246,7 +246,7 @@ export default function CollectionDetails() {
         <div className={styles.container}>
             <div className={styles.header}>
                 <Link href="/" className={styles.backLink}>
-                    &larr; Назад
+                    Назад
                 </Link>
                 <h1 className={styles.title}>Коллекция</h1>
             </div>

@@ -435,7 +435,7 @@ export default function BookDetails() {
         <div className={styles.container}>
             <div className={styles.header}>
                 <Link href="/" className={styles.backLink}>
-                    &larr; Назад
+                    Назад
                 </Link>
                 <h1 className={styles.title}>Детали книги</h1>
             </div>

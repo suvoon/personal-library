@@ -203,10 +203,6 @@ export default function Home() {
     return (
       <div className={styles.container}>
         <div className={styles.welcomeSection}>
-          <h1 className={styles.welcomeTitle}>Добро пожаловать в Личную Библиотеку</h1>
-          <p className={styles.welcomeText}>
-            Управляйте своей коллекцией книг, создавайте тематические подборки и отслеживайте чтение.
-          </p>
           <div className={styles.welcomeButtons}>
             <Link href="/login" className={styles.primaryButton}>
               Войти

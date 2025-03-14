@@ -7,13 +7,13 @@
 }
 
 .backLink {
-    color: #2563eb;
+    color: #222222;
     display: inline-block;
     margin-bottom: 0.5rem;
 }
 
 .backLink:hover {
-    color: #1d4ed8;
+    color: #222222;
 }
 
 .title {
@@ -24,10 +24,8 @@
 
 .errorMessage {
     background-color: #fee2e2;
-    border: 1px solid #f87171;
     color: #b91c1c;
     padding: 0.75rem 1rem;
-    border-radius: 0.25rem;
     margin-bottom: 1rem;
 }
 
@@ -52,7 +50,6 @@
     position: relative;
     height: 400px;
     background-color: #f3f4f6;
-    border-radius: 0.5rem;
     overflow: hidden;
 }
 
@@ -80,9 +77,8 @@
 
 .detailsContainer {
     background-color: white;
-    border-radius: 0.5rem;
     padding: 1.5rem;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-shadow: none;
 }
 
 .bookTitle {
@@ -149,19 +145,18 @@
 .deleteButton,
 .addToCollectionButton {
     padding: 0.5rem 1rem;
-    border-radius: 0.375rem;
     font-size: 0.875rem;
     font-weight: 500;
     cursor: pointer;
 }
 
 .editButton {
-    background-color: #2563eb;
+    background-color: #222222;
     color: white;
 }
 
 .editButton:hover {
-    background-color: #1d4ed8;
+    background-color: #222222;
 }
 
 .deleteButton {
@@ -170,16 +165,16 @@
 }
 
 .deleteButton:hover {
-    background-color: #b91c1c;
+    background-color: #dc2626;
 }
 
 .addToCollectionButton {
-    background-color: #059669;
+    background-color: #222222;
     color: white;
 }
 
 .addToCollectionButton:hover {
-    background-color: #047857;
+    background-color: #222222;
 }
 
 .modalOverlay {
@@ -197,13 +192,12 @@
 
 .modal {
     background-color: white;
-    border-radius: 0.5rem;
     padding: 1.5rem;
     width: 90%;
     max-width: 500px;
     max-height: 90vh;
     overflow-y: auto;
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow: none;
 }
 
 .modalHeader {
@@ -227,7 +221,7 @@
 }
 
 .closeButton:hover {
-    color: #1f2937;
+    color: #6b7280;
 }
 
 .collectionsList {
@@ -237,12 +231,10 @@
 }
 
 .collectionItem {
+    padding: 0.75rem;
+    margin-bottom: 0.5rem;
     display: flex;
     align-items: center;
-    padding: 0.75rem;
-    border: 1px solid #e5e7eb;
-    border-radius: 0.375rem;
-    margin-bottom: 0.5rem;
 }
 
 .collectionItem:hover {
@@ -267,11 +259,11 @@
     display: block;
     text-align: center;
     margin-top: 1rem;
-    color: #2563eb;
+    color: #222222;
 }
 
 .createCollectionLink:hover {
-    color: #1d4ed8;
+    color: #222222;
 }
 
 .modalActions {
@@ -283,7 +275,6 @@
 
 .cancelButton {
     padding: 0.5rem 1rem;
-    border-radius: 0.375rem;
     font-size: 0.875rem;
     font-weight: 500;
     background-color: #f3f4f6;
@@ -291,20 +282,19 @@
 }
 
 .cancelButton:hover {
-    background-color: #e5e7eb;
+    background-color: #f3f4f6;
 }
 
 .saveButton {
     padding: 0.5rem 1rem;
-    border-radius: 0.375rem;
     font-size: 0.875rem;
     font-weight: 500;
-    background-color: #2563eb;
+    background-color: #222222;
     color: white;
 }
 
 .saveButton:hover {
-    background-color: #1d4ed8;
+    background-color: #222222;
 }
 
 .saveButton:disabled {
@@ -315,9 +305,7 @@
 .notesSection {
     margin-top: 2rem;
     background-color: white;
-    border-radius: 0.5rem;
     padding: 1.5rem;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
 .sectionHeader {
@@ -333,16 +321,15 @@
 }
 
 .addButton {
-    background-color: #2563eb;
+    background-color: #222222;
     color: white;
     padding: 0.5rem 1rem;
-    border-radius: 0.375rem;
     font-size: 0.875rem;
     font-weight: 500;
 }
 
 .addButton:hover {
-    background-color: #1d4ed8;
+    background-color: #222222;
 }
 
 .notesList {
@@ -350,8 +337,7 @@
 }
 
 .noteItem {
-    border: 1px solid #e5e7eb;
-    border-radius: 0.5rem;
+    background-color: white;
     padding: 1rem;
     margin-bottom: 1rem;
 }
@@ -385,7 +371,6 @@
 .noteHighlight {
     background-color: #fef3c7;
     padding: 0.5rem;
-    border-radius: 0.25rem;
     margin-top: 0.5rem;
     font-style: italic;
 }
@@ -406,7 +391,7 @@
 
 .editNoteButton:hover,
 .deleteNoteButton:hover {
-    color: #1f2937;
+    background-color: #f3f4f6;
 }
 
 .emptyNotes {
@@ -414,15 +399,12 @@
     padding: 2rem;
     color: #6b7280;
     background-color: #f9fafb;
-    border-radius: 0.5rem;
 }
 
 .borrowersSection {
     margin-top: 2rem;
     background-color: white;
-    border-radius: 0.5rem;
     padding: 1.5rem;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
 .borrowersList {
@@ -430,8 +412,7 @@
 }
 
 .borrowerItem {
-    border: 1px solid #e5e7eb;
-    border-radius: 0.5rem;
+    background-color: white;
     padding: 1rem;
     margin-bottom: 1rem;
 }
@@ -481,7 +462,6 @@
 .borrowerStatus {
     display: inline-block;
     padding: 0.25rem 0.5rem;
-    border-radius: 9999px;
     font-size: 0.75rem;
     font-weight: 500;
 }
@@ -519,7 +499,7 @@
 .returnButton:hover,
 .editBorrowerButton:hover,
 .deleteBorrowerButton:hover {
-    color: #1f2937;
+    background-color: #f3f4f6;
 }
 
 .emptyBorrowers {
@@ -527,7 +507,6 @@
     padding: 2rem;
     color: #6b7280;
     background-color: #f9fafb;
-    border-radius: 0.5rem;
 }
 
 .formGroup {
@@ -546,16 +525,14 @@
 .textarea {
     width: 100%;
     padding: 0.5rem;
-    border: 1px solid #d1d5db;
-    border-radius: 0.375rem;
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: none;
 }
 
 .input:focus,
 .textarea:focus {
+    border-color: #d1d5db;
     outline: none;
-    border-color: #3b82f6;
-    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5);
+    box-shadow: none;
 }
 
 .textarea {
@@ -570,13 +547,11 @@
 }
 
 .colorOption {
-    width: 1.5rem;
-    height: 1.5rem;
-    border-radius: 9999px;
+    width: 2rem;
+    height: 2rem;
     cursor: pointer;
-    border: 2px solid transparent;
 }
 
 .colorOptionSelected {
-    border-color: #1f2937;
+    border-color: #222222;
 }

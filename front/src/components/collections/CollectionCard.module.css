@@ -1,13 +1,11 @@
 .card {
     background-color: white;
-    border-radius: 0.5rem;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-shadow: none;
     padding: 1rem;
-    transition: box-shadow 0.3s ease;
 }
 
 .card:hover {
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow: none;
 }
 
 .header {
@@ -28,9 +26,6 @@
 .description {
     color: #4b5563;
     margin-top: 0.25rem;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
     overflow: hidden;
 }
 
@@ -44,7 +39,6 @@
     display: inline-flex;
     align-items: center;
     padding: 0.125rem 0.625rem;
-    border-radius: 9999px;
     font-size: 0.75rem;
     font-weight: 500;
     background-color: #d1fae5;
@@ -57,11 +51,11 @@
 }
 
 .link {
-    color: #2563eb;
+    color: #222222;
     font-size: 0.875rem;
     font-weight: 500;
 }
 
 .link:hover {
-    color: #1d4ed8;
+    color: #222222;
 }

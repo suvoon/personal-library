@@ -1,10 +1,7 @@
 'use client'
-import { Inter } from "next/font/google";
 import "./globals.css";
 import { AuthProvider } from "../context/AuthContext";
 import Layout from "../components/layout/Layout";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export default function RootLayout({
   children,
@@ -13,7 +10,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body>
         <AuthProvider>
           <Layout>{children}</Layout>
         </AuthProvider>

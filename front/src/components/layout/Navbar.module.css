@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #2563eb;
+    background-color: #222222;
     color: white;
     padding: 1rem;
 }
@@ -33,9 +33,9 @@
 }
 
 .navLink:hover {
-    color: #bfdbfe;
+    color: white;
 }
 
 .welcomeText {
-    color: #bfdbfe;
+    color: white;
 }
